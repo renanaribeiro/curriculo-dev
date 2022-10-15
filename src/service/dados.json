@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "img": "https://via.placeholder.com/200x200",
+    "nome": "Nome",
+    "sobrenome": "Sobrenome",
+    "cidade": "CIDADE",
+    "estado": "ESTADO",
+    "contato": "(34) 99999-9999",
+    "email": "email@gmail.com",
+    "biografia": "BIOGRAFIA....",
+    "experiencia": [
+      {
+        "id": 1,
+        "cargo": "cargo",
+        "empresa": "empresa",
+        "periodo": "dez 2020 - Maio 2021",
+        "atividades": "descrição das atividades"
+      },
+      {
+        "id": 2,
+        "cargo": "cargo",
+        "empresa": "empresa",
+        "periodo": "dez 2020 - Maio 2021",
+        "atividades": "descrição das atividades"
+      },
+      {
+        "id": 3,
+        "cargo": "cargo",
+        "empresa": "empresa",
+        "periodo": "dez 2020 - Maio 2021",
+        "atividades": "descrição das atividades"
+      }
+    ]
+  }
+}
