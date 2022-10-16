@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Card/Index';
 import { Highlight, Info } from '../Card/styles';
+import Skill from '../Skill/Index';
 import SocialMedia from '../SocialMedia/Index';
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
@@ -42,7 +43,7 @@ const Section = ({ profile }) => (
     </Sections>
     <Sections id="skills">
       <Title texto="Habilidades" />
-      <SubTitle texto="Em desenvolvimento ACQA" />
+      <Skill skills={profile.habilidades} />
     </Sections>
     <Sections id="projects">
       <Title texto="Projetos" />
