@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Card/Index';
 import { Highlight, Info } from '../Card/styles';
+import SocialMedia from '../SocialMedia/Index';
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
 import { SectionHeading } from '../Title/styles';
@@ -20,7 +21,11 @@ const Section = ({ profile }) => (
       <p>{profile.biografia}</p>
       <div id="contacts">
         <Title texto="Contatos" />
-        <SubTitle texto="Em desenvolvimento ACQA" />
+        {profile.redesocial ? (
+          <SocialMedia links={profile.redesocial} />
+        ) : (
+          <SubTitle texto="Nenhum registro encontrado!" />
+        )}
       </div>
     </Sections>
     <Sections id="experience">
