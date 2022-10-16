@@ -11,3 +11,7 @@ export const Highlight = styled.span`
   font-size: 2rem;
   font-weight: 600;
 `;
+
+export const Activities = styled.p`
+  white-space: break-spaces;
+`;

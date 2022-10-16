@@ -13,22 +13,29 @@
         "id": 1,
         "cargo": "Desenvolvedor Full Stack Pleno",
         "empresa": "A5 Solutions",
-        "periodo": "Outubro 2017 - Atual",
-        "atividades": "Desenvolvimento e troubleshooting de aplicações"
+        "periodo": "Maio de 2018 - Atual",
+        "atividades": "Desenvolvedor Backend Java e C# com API REST para relatórios customizados;\nDesenvolvedor Frontend Angular com consumo de API para relatórios analíticos;\nBanco de Dados (SQL Server e PostgreSQL) e gerenciamento de servidores (Windows e Linux);\nAnálise de logs para troubleshooting e correções de bugs."
       },
       {
         "id": 2,
-        "cargo": "Analista de Atendimento ao Cliente",
-        "empresa": "TecnoComp",
-        "periodo": "Não me lembro",
-        "atividades": "Suporte de nível 3, gestão do estoque e inventário"
+        "cargo": "Customer Success",
+        "empresa": "Omnize Software Ltda",
+        "periodo": "Agosto de 2015 - Abril de 2018",
+        "atividades": "Atendimento e Suporte Técnico ao cliente;\nCriação de tutoriais e páginas do site;\nGestão dos clientes na ferramenta Pipedrive;\nAnálise de logs do produto para identificação de problemas;\nCorreções / melhorias do software;\nMonitoramento de alertas da ferramenta."
       },
       {
         "id": 3,
-        "cargo": "Estagiário de Engenharia Clínica",
-        "empresa": "Hospital Nipo",
-        "periodo": "2011 até 2012",
-        "atividades": "Auxiliar administrativo na área de TI e controle de inventário"
+        "cargo": "Analista de Suporte Bilíngue",
+        "empresa": "TecnoComp Tecnologia e Serviços",
+        "periodo": "Outubro de 2012 - Julho de 2015",
+        "atividades": "Suporte técnico nível 1, 2 e 3;\nAnalista de Suporte bilíngue;\nInstalação e configuração de aplicativos de Engenharia;\nConfiguração do Office 365;\nIntegração de novos usuários;\nControle de ativos;\nConfiguração do Call Manager e suporte de Vídeo Conferências."
+      },
+      {
+        "id": 4,
+        "cargo": "Estágio em Engenharia Clínica",
+        "empresa": "Beenficência Nipo Brasileira de São Paulo",
+        "periodo": "Abril de 2011 - Dezembro de 2011",
+        "atividades": "Organização e planilhamento de arquivos;\nControle, recebimento e fechamento de Ordens de Serviço;\nAgendamento e baixa de preventivas;\nRotina administrativa de Engenharia Clínica."
       }
     ],
     "redesocial": {
@@ -41,6 +48,7 @@
       "Agilidade",
       "Trabalho em Equipe",
       "Troubleshooting e soluções de bugs"
-    ]
+    ],
+    "githubRepos": "https://api.github.com/users/renanaribeiro/repos"
   }
 }

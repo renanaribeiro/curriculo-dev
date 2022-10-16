@@ -1,7 +1,7 @@
 import React from 'react';
 import SubTitle from '../SubTitle/Index';
 import SubTitleH3 from '../SubTitleH3/Index';
-import { Highlight, Info } from './styles';
+import { Highlight, Info, Activities } from './styles';
 
 const Card = ({ subTitle, subTitleH3, date, info }) => (
   <div>
@@ -10,7 +10,7 @@ const Card = ({ subTitle, subTitleH3, date, info }) => (
     <Info>
       <Highlight> {date}</Highlight>
     </Info>
-    <p>{info}</p>
+    <Activities>{info}</Activities>
   </div>
 );
 

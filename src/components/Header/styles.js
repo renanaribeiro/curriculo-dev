@@ -28,7 +28,7 @@ export const Ul = styled.ul`
   flex-direction: column;
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
 `;
 

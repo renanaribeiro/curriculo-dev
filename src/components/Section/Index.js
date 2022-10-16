@@ -6,28 +6,30 @@ import SocialMedia from '../SocialMedia/Index';
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
 import { SectionHeading } from '../Title/styles';
-import { Sections } from './styles';
+import { Email, Sections } from './styles';
+import Repo from '../Repos/Index';
 
 const Section = ({ profile }) => (
   <>
     <Sections id="about">
-      <Title texto="Olá pessoal, sou o" />
       <SectionHeading>
         {profile.nome} <Highlight>{profile.sobrenome}</Highlight>
       </SectionHeading>
       <Info>
         {profile.cidade} - {profile.estado} - {profile.contato} -{' '}
-        <Highlight> {profile.email}</Highlight>
+        <Email target="_blank" href={`mailto:${profile.email}`}>
+          {profile.email}
+        </Email>
       </Info>
       <p>{profile.biografia}</p>
-      <div id="contacts">
-        <Title texto="Contatos" />
-        {profile.redesocial ? (
-          <SocialMedia links={profile.redesocial} />
-        ) : (
-          <SubTitle texto="Nenhum registro encontrado!" />
-        )}
-      </div>
+    </Sections>
+    <Sections id="contacts">
+      <Title texto="Contatos" />
+      {profile.redesocial ? (
+        <SocialMedia links={profile.redesocial} />
+      ) : (
+        <SubTitle texto="Nenhum registro encontrado!" />
+      )}
     </Sections>
     <Sections id="experience">
       <Title texto="Experiência" />
@@ -47,7 +49,8 @@ const Section = ({ profile }) => (
     </Sections>
     <Sections id="projects">
       <Title texto="Projetos" />
-      <SubTitle texto="Em desenvolvimento ACQA" />
+      <SubTitle texto="Conheça meus repositórios do GitHub" />
+      <Repo url={profile.githubRepos} />
     </Sections>
   </>
 );
