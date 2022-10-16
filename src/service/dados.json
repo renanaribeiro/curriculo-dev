@@ -1,35 +1,41 @@
 {
   "profile": {
-    "img": "https://via.placeholder.com/200x200",
-    "nome": "Nome",
-    "sobrenome": "Sobrenome",
-    "cidade": "CIDADE",
-    "estado": "ESTADO",
-    "contato": "(34) 99999-9999",
-    "email": "email@gmail.com",
-    "biografia": "BIOGRAFIA....",
+    "img": "https://graph.facebook.com/1763936240355525/picture?type=large",
+    "nome": "Renan",
+    "sobrenome": "Ribeiro",
+    "cidade": "Uberlândia",
+    "estado": "MG",
+    "contato": "(11) 95428-5091",
+    "email": "trukoparker@outlook.com",
+    "biografia": "Olá, me chamo Renan, tenho 28 anos, graduando em Análise e Desenvolvimento de Sistemas e sou um profissional com fácil relacionamento entre equipes, responsável, organizado e focado nas atividades.",
     "experiencia": [
       {
         "id": 1,
-        "cargo": "cargo",
-        "empresa": "empresa",
-        "periodo": "dez 2020 - Maio 2021",
-        "atividades": "descrição das atividades"
+        "cargo": "Desenvolvedor Full Stack Pleno",
+        "empresa": "A5 Solutions",
+        "periodo": "Outubro 2017 - Atual",
+        "atividades": "Desenvolvimento e troubleshooting de aplicações"
       },
       {
         "id": 2,
-        "cargo": "cargo",
-        "empresa": "empresa",
-        "periodo": "dez 2020 - Maio 2021",
-        "atividades": "descrição das atividades"
+        "cargo": "Analista de Atendimento ao Cliente",
+        "empresa": "TecnoComp",
+        "periodo": "Não me lembro",
+        "atividades": "Suporte de nível 3, gestão do estoque e inventário"
       },
       {
         "id": 3,
-        "cargo": "cargo",
-        "empresa": "empresa",
-        "periodo": "dez 2020 - Maio 2021",
-        "atividades": "descrição das atividades"
+        "cargo": "Estagiário de Engenharia Clínica",
+        "empresa": "Hospital Nipo",
+        "periodo": "2011 até 2012",
+        "atividades": "Auxiliar administrativo na área de TI e controle de inventário"
       }
-    ]
+    ],
+    "redesocial": {
+      "linkedin": "https://www.linkedin.com/in/renanaribeiro",
+      "github": "https://github.com/renanaribeiro",
+      "facebook": "https://www.facebook.com/trukoparker",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=5511954285091"
+    }
   }
 }
