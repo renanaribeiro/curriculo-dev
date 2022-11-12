@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Currículo Dev - Renan Ribeiro
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo
+
+Checkout live demo in [Vercel](https://curriculo-dev-renan-ribeiro.vercel.app)
 
 ## Available Scripts
 
